@@ -1,7 +1,7 @@
 <h1><u>🔢Bitwise Operator🔢</u></h1>
-<p>Integer Data type -> Data -> Bit Representation -> Bit level operation -> Bitwise Operation.</p>
-<p>Bitwise operation -> operator -> Bitwise Operator.</p>
-<p>Bitwise Operator -> direct Manipulates bits.</p>
+<p>Integer Data type 👉 Data 👉 Bit Representation 👉 Bit level operation 👉 Bitwise Operation.</p>
+<p>Bitwise operation 👉 operator 👉 Bitwise Operator.</p>
+<p>Bitwise Operator 👉 direct Manipulates bits.</p>
 <b>List of C++ Bitwise operators</b>
 <table>
   <thead>
