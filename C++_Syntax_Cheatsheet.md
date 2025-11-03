@@ -44,3 +44,34 @@
     </tr>
   </tbody>
 </table>
+Example
+<pre><code>
+#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+   unsigned int a = 60;    // 60 = 0011 1100  
+   unsigned int b = 13;    // 13 = 0000 1101
+   int c = 0;             
+
+   c = a &amp; b;              // 12 = 0000 1100
+   cout &lt;&lt; "Line 1 - Value of c is : " &lt;&lt; c &lt;&lt; endl ;
+
+   c = a | b;              // 61 = 0011 1101
+   cout &lt;&lt; "Line 2 - Value of c is: " &lt;&lt; c &lt;&lt; endl ;
+
+   c = a ^ b;              // 49 = 0011 0001
+   cout &lt;&lt; "Line 3 - Value of c is: " &lt;&lt; c &lt;&lt; endl ;
+
+   c = ~a;                 // -61 = 1100 0011
+   cout &lt;&lt; "Line 4 - Value of c is: " &lt;&lt; c &lt;&lt; endl ;
+
+   c = a &lt;&lt; 2;             // 240 = 1111 0000
+   cout &lt;&lt; "Line 5 - Value of c is: " &lt;&lt; c &lt;&lt; endl ;
+
+   c = a &gt;&gt; 2;             // 15 = 0000 1111
+   cout &lt;&lt; "Line 6 - Value of c is: " &lt;&lt; c &lt;&lt; endl ;
+
+   return 0;
+}
+  </code></pre>
